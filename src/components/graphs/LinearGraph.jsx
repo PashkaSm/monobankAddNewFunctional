@@ -90,7 +90,7 @@ function LinearGraph({ charDate, option }) {
   const setGraphMounth = () => {
     setUserDate({
       ...userData,
-      labels: [...dayWeek, ...dayWeek, ...dayWeek, ...dayWeek],
+      labels: [...dayWeek, ...dayWeek, ...dayWeek, ...dayWeek,"Mon","Tue"],
       datasets: [
         {
           data: [...dateCosts, ...dateCosts, ...dateCosts],

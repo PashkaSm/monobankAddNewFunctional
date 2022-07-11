@@ -23,6 +23,7 @@ $balance-font-weight: 700;
   overflow-x: scroll;
 
   &::-webkit-scrollbar {
+    // Якщо забрати появиться скрол бар
     display: none;
   }
 }
